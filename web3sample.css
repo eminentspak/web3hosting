@@ -1,0 +1,319 @@
+p {
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  position: relative;
+  left: 50%;
+  right: 50%;
+  font-family: "Inter", sans-serif;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width:375px) {
+  body {
+    width: 100%;
+  }
+}
+
+@media (min-width:1440px) {
+  body{
+    width: 100%;
+  }
+}
+
+header{
+  color: black;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  font-family: "Inter", sans-serif;
+ }
+
+ .w {
+  margin-right: 330px;
+  margin-left: -20px;
+  margin-top: -3px;
+  color: hsl(240, 100%, 5%);
+  font-size: 55px;
+  font-family: "Inter, san-serif";
+  font-weight: 800;
+  vertical-align: middle;
+ }
+
+ .Home, 
+ .New,
+ .Popular,
+ .Trending,
+ .Categories{
+  font-size: 11px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  color:  hsl(233, 8%, 79%);
+  margin-top: 28px;
+ }
+ 
+ .Home {
+  margin-right: 0;
+ }
+ .New {
+  margin-right: 0;
+  margin-left: -15px;
+ }
+
+ .Popular {
+  margin-right: 0;
+  margin-left: -15px;
+ }
+
+ .Trending {
+  margin-right: 0;
+  margin-left: -15px;
+ }
+
+ .Categories {
+  margin-left: -15px;
+ }
+ .section-grid {
+  display: grid;
+  grid-template-columns: 430px 1fr;
+  margin-top: 60px;
+  position: absolute;
+  left: 10px;
+  right: 10px;
+  top: 20px;
+ }
+
+ .web-layout {
+  display: inline-block;
+ }
+
+ .web-description{
+  display: grid;
+  grid-template-columns: 180px 1fr;
+ }
+
+ .web-future {
+  display: inline-block;
+  vertical-align: top;
+ }
+
+ .platform-power {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 40px;
+ }
+
+ .web-desktop {
+  height: 180px;
+  width: 460px;
+  margin-bottom: 8px;
+ }
+
+ .bright-future {
+  font-size: 31px;
+  width: 190px;
+  font-weight: 800;
+  margin-top: 8px;
+  line-height: 36px;
+ }
+
+ .web-platform {
+  width: 235px;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 18px;
+  color:  hsl(236, 13%, 42%);
+  margin-bottom: 28px;
+ }
+
+ .read-button {
+  background-color: hsl(5, 85%, 63%);
+  color: white;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 700;
+  border: none;
+  border-radius: 1px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 26px;
+  padding-right: 26px;
+ }
+
+ .web-debate {
+  display: inline-block;
+  background-color: hsl(240, 100%, 5%);
+  height: 350px;
+  width: 241px;
+  padding-left: 15px;
+  margin-left: 50px;
+  padding-bottom: -10px;
+ }
+
+ .New-text {
+  font-size: 25px;
+  font-weight: 700;
+  color: hsl(35, 77%, 62%);
+ }
+
+ .hydrogen,
+ .downsides,
+ .vc-funding {
+  font-size: 13px;
+  font-weight: 700;
+  color: hsl(36, 100%, 99%);
+ }
+
+ .downsides, 
+ .vc-funding{
+  margin-top: 22px;
+ }
+
+ .hydrogen-cars,
+ .possibility,
+ .private-funding {
+  font-size: 10px;
+  font-weight: 700;
+  color:  hsl(236, 13%, 42%);
+  margin-bottom: 22px;
+ }
+
+ .hydrogen-cars {
+  width: 200px;
+ }
+
+ .possibility {
+  width: 190px;
+ }
+
+ .private-funding {
+  width: 230px;
+ }
+
+ .solid {
+  width: 220px;
+  border: 1px solid hsl(236, 13%, 42%);
+  margin-bottom: 0;
+  margin-left: 0;
+ }
+
+ .first-row,
+ .second-row,
+ .third-row {
+  justify-content: center;
+  align-items: center;
+ }
+
+ .last-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 50px;
+  position: absolute;
+  top: 400px;
+  left: 20px;
+ }
+
+ .retro-pc,
+ .laptop,
+ .gaming-growth {
+  display: inline-block;
+ }
+
+ .retro-info,
+ .top-rating,
+ .gaming-opportunity {
+  display: inline-block;
+ }
+
+ .retro-image,
+ .laptop-image,
+ .gaming-image {
+  height: 85px;
+ }
+ 
+ .one {
+  font-size: 21px;
+  font-weight: 700;
+  color: hsl(233, 8%, 79%);
+  margin-bottom: -4px;
+ }
+ .reviving {
+  font-size: 12px;
+  font-weight: 800;
+  color: hsl(240, 100%, 5%);
+  margin-bottom: -4px;
+ }
+ .modern {
+  font-size: 11px;
+  font-weight: 400;
+  color: hsl(236, 13%, 42%);
+  width: 150px;
+ }
+
+ .retro-info {
+  margin-left: 10px;
+  margin-right: 0;
+ }
+
+ .two {
+  font-size: 21px;
+  font-weight: 700;
+  color: hsl(233, 8%, 79%);
+  margin-bottom: -4px;
+ }
+
+ .top {
+  font-size: 12px;
+  font-weight: 800;
+  color: hsl(240, 100%, 5%);
+  margin-bottom: -4px;
+ }
+
+ .picks {
+  font-size: 11px;
+  font-weight: 400;
+  color: hsl(236, 13%, 42%);
+  width: 150px;
+ }
+
+ .top-rating {
+  margin-left: 10px;
+ }
+
+ .three {
+  font-size: 21px;
+  font-weight: 700;
+  color: hsl(233, 8%, 79%);
+  margin-bottom: -4px;
+ }
+
+ .growth {
+  font-size: 12px;
+  font-weight: 800;
+  color: hsl(240, 100%, 5%);
+  margin-bottom: -4px;
+ }
+
+ .pandemic {
+  font-size: 11px;
+  font-weight: 400;
+  color: hsl(236, 13%, 42%);
+  width: 170px;
+ }
+
+ .gaming-opportunity {
+  margin-left: 10px;
+ }
+
+ .laptop-info{
+  margin-left: -6px;
+ }
+
+ .gaming-info {
+  margin-left: 0;
+ }
